@@ -17,7 +17,7 @@ public class Sale {
 	private Long id;
 	private Integer visited;
 	private Integer deals;
-	private String seller_name;
+	private String sellerName;
 	private Double amount;
 	private LocalDate date;
 	
@@ -50,14 +50,6 @@ public class Sale {
 		this.deals = deals;
 	}
 
-	public String getSaler_name() {
-		return saler_name;
-	}
-
-	public void setSaler_name(String saler_name) {
-		this.saler_name = saler_name;
-	}
-
 	public Double getAmount() {
 		return amount;
 	}
@@ -72,5 +64,13 @@ public class Sale {
 
 	public void setDate(LocalDate date) {
 		this.date = date;
+	}
+
+	public String getSellerName() {
+		return sellerName;
+	}
+
+	public void setSellerName(String sellerName) {
+		this.sellerName = sellerName;
 	}
 }
